@@ -41,7 +41,7 @@ public class Tree
 	
 	/** // TODO: describe function/purpose of this method
 	 *
-	 * @return 			xxxxx // TODO: describe the return value
+	 * @return 			returns the children of the tree
 	 */
 	public Tree[] getChildren() {
 		return null;	// TODO: Implement this method correctly
@@ -49,9 +49,10 @@ public class Tree
 	
 	
 	
-	/** // TODO: describe function/purpose of this method
+	/** // check whether or the object is a leaf, the object has no more
+	 * branches
 	 *
-	 * @return 			xxxxx // TODO: describe the return value
+	 * @return 			returns true or false
 	 */
 	public boolean isLeaf() {
 		return false;	// TODO: Implement this method correctly
@@ -59,9 +60,9 @@ public class Tree
 	
 	
 	
-	/** // TODO: describe function/purpose of this method
+	/** // returns the max height of the tree
 	 *
-	 * @return 			xxxxx // TODO: describe the return value
+	 * @return 			returns an integer
 	 */
 	public int maxHeight() {
 		return -1;	// TODO: Implement this method correctly
@@ -69,9 +70,9 @@ public class Tree
 	
 	
 	
-	/** // TODO: describe function/purpose of this method
+	/** returns the number of elements in the tree
 	 *
-	 * @return 			xxxxx // TODO: describe the return value
+	 * @return 			returns an int
 	 */
 	public int size() {
 		return -1;	// TODO: Implement this method correctly
