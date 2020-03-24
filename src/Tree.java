@@ -71,7 +71,7 @@ public class Tree
 	 * @return 			returns an integer
 	 */
 	public int maxHeight() {
-		return -1;	// TODO: Implement this method correctly
+		return -1;	// TODO: Implement this method correctly 
 	}
 	
 	
