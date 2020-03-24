@@ -4,7 +4,7 @@
 
 /** This class represents a n-ary tree with potential subclasses like 
  *	binary tree, binary search tree, ,and expression tree.
- * @author ALEX // TODO: Complete the "@author" tag by filling in your name
+ * @author ALEX
  */
 public class Tree
 {
@@ -41,7 +41,7 @@ public class Tree
 	
 	
 	
-	/** // TODO: describe function/purpose of this method
+	/** returns the children of the tree
 	 *
 	 * @return 			returns the children of the tree
 	 */
