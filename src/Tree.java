@@ -24,7 +24,9 @@ public class Tree
 	 * @param branchinFactor	the number of children/subtrees
 	 */
 	public Tree(Object rootValue, int branchingFactor) {
-		// TODO: Implement this constructor correctly
+		myRootValue=rootValue;
+		myChildren= new Tree[branchingFactor];
+		
 	}
 	
 	
@@ -34,7 +36,7 @@ public class Tree
 	 * @return 			returns the value stored in the root of this tree. 	
 	 */
 	public Object getValue() {
-		return null;	// TODO: Implement this method correctly
+		return myRootValue;
 	}
 	
 	
@@ -44,7 +46,7 @@ public class Tree
 	 * @return 			returns the children of the tree
 	 */
 	public Tree[] getChildren() {
-		return null;	// TODO: Implement this method correctly
+		return myChildren;
 	}
 	
 	
@@ -55,7 +57,11 @@ public class Tree
 	 * @return 			returns true or false
 	 */
 	public boolean isLeaf() {
-		return false;	// TODO: Implement this method correctly
+		
+		//CHECK THIS LINE
+		if(myChildren.length>0)
+			return false;
+		return true;
 	}
 	
 	
@@ -79,11 +85,12 @@ public class Tree
 	}
 	
 	
-	
-	/** // TODO: describe function/purpose of this method
+	/** // checks to see if object x is in the list
 	 *
-	 * @param x			xxxxx // TODO: describe the parameter
-	 * @return 			xxxxx // TODO: describe the return value
+	 * @param x			the object x is being searched for
+	 * @return 			returns true or false depending on 
+	 * 					whether or not object x is in the 
+	 * 					tree 
 	 */
 	public boolean breadthFirstSearch(Object x) {
 		return false;	// TODO: Implement this method correctly
@@ -93,8 +100,10 @@ public class Tree
 	
 	/** // TODO: describe function/purpose of this method
 	 *
-	 * @param x			xxxxx // TODO: describe the parameter
-	 * @return 			xxxxx // TODO: describe the return value
+	 * @param x			the object x is being searched for
+	 * @return 			returns true or false depending on 
+	 * 					whether or not object x is in the 
+	 * 					tree 
 	 */
 	public boolean depthFirstSearch(Object x) {
 		return false;	// TODO: Implement this method correctly
