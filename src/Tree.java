@@ -57,8 +57,6 @@ public class Tree
 	 * @return 			returns true or false
 	 */
 	public boolean isLeaf() {
-		
-		//CHECK THIS LINE
 		if(myChildren.length>0)
 			return false;
 		return true;
