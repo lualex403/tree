@@ -4,7 +4,8 @@
 
 /** This class represents a n-ary tree with potential subclasses like 
  *	binary tree, binary search tree, ,and expression tree.
- * @author ALEX // TODO: Complete the "@author" tag by filling in your name
+ * @author ALEX // TODO: Complete the "@author" tag by filling in your name 
+ * #######dont forget to change your name at the end###############
  */
 public class Tree
 {
