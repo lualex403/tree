@@ -69,7 +69,18 @@ public class Tree
 	 * @return 			returns an integer
 	 */
 	public int maxHeight() {
-		return -1;	// TODO: Implement this method correctly 
+		//COMPLETELY WRONG RN
+		int size=0;
+		while(isLeaf()==false) {
+			size++;
+			for(Tree a:myChildren) {
+				while( a.isLeaf()==false) {
+					size++;
+					break;
+				}
+			}
+			
+		}
 	}
 	
 	
